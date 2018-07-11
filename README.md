@@ -32,7 +32,7 @@
 * #### Add error logs where required
 * #### For bulk APIs instead of looping and fetching a single entity, fetch entity in bulk
 * #### Have one source of truth, don't duplicate
-* #### Don't create multiple ways of doing a same thing
+* #### Don't create multiple ways of doing a same thing."There should be one-- and preferably only one --obvious way to do it." (see Zen of Python) 
 * #### Check for I/O Blocking calls, should be either done in async or thread
 * #### Variable/Function names should be self explanatory
 * #### Environment level constants should be in config

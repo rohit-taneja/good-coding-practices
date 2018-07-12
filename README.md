@@ -137,3 +137,7 @@
 
 ## * Encoding/Decoding/Marshalling/De-Marshalling*
 ----
+
+## *New feature release*
+----
+* #### Check for old code compatability

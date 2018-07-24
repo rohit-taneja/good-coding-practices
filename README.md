@@ -70,6 +70,7 @@
 * #### Use code [linting](https://en.wikipedia.org/wiki/Lint_(software)) tool.
 * #### Reformat code
 * #### Use [dead code](https://en.wikipedia.org/wiki/Dead_code) detectot tools
+* #### Always check for division by 0. i.e your divisor should never have value=0
 
 
 

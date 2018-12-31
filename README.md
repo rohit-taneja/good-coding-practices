@@ -113,6 +113,7 @@
 * #### Have API retries on failures
 * #### Deine mechanism after final failure occurs
 * #### Use statuscake/pingdom to get health checkups for 3rd party API downtime
+* #### Check if there is a rate limiting for APIs
 
 ## *Database*
 ----

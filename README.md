@@ -55,7 +55,7 @@
 * #### Know your Variables which are immutable
 * #### Arrays are checked for out of bound conditions
 * #### Comments exist and describe rationale or reasons for decisions in code
-* #### A class/module should have only one reason to change. [Single Respnsibility Principle](https://en.wikipedia.org/wiki/Single_responsibility_principle)
+* #### A class/module should have only one reason to change. [Single Responsibility Principle](https://en.wikipedia.org/wiki/Single_responsibility_principle)
 * #### Where third-party utilities are used, are returning errors being caught?
 * #### Remove any commented out lines.
 * #### Function length: For a method above 50 lines, it should be cut into smaller pieces.
@@ -69,17 +69,17 @@
 * #### Use not (!) to your advantage by not writing many ==
 * #### Use code [linting](https://en.wikipedia.org/wiki/Lint_(software)) tool.
 * #### Reformat code
-* #### Use [dead code](https://en.wikipedia.org/wiki/Dead_code) detectot tools
+* #### Use [dead code](https://en.wikipedia.org/wiki/Dead_code) detector tools
 * #### Always check for division by 0. i.e your divisor should never have value=0
 
 
 
 ## *Managing resources acquired*
 ----
-* #### Add strict tiemouts for every resource that you are using. [Circuit breaker pattern](https://martinfowler.com/bliki/CircuitBreaker.html)
+* #### Add strict timeouts for every resource that you are using. [Circuit breaker pattern](https://martinfowler.com/bliki/CircuitBreaker.html)
 * #### Don't forget to free the resource. Clear resource in finally statement if necessary
 * #### Release resource as soon as they are not required
-* #### Reuse reource, don't just create new ones every time
+* #### Reuse resource, don't just create new ones every time
 * #### Refresh resources over time, they tend to hog on to memory with time
 * #### Know your resource usage limits. The min and the max
 * #### Have alerts in place for resource shortage. We can have multiple alerts
@@ -87,7 +87,7 @@
 
 ## *Caching*
 ----
-* #### Add caching whereever applicable.
+* #### Add caching wherever applicable.
 * #### Don't forget to define action points to invalidate cache (on upates/delete and in some cases inserts)
 * #### Use memoization whereever applicable for CPU intensive functions
 * #### Model your data precisely. hashmap, string, boolean etc

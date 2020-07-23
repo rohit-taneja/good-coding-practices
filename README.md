@@ -116,6 +116,7 @@
 * #### Check if there is a rate limiting for APIs
 * #### If your data is being shared by a file url, make sure the url is not guessable and rate limited
 * #### Know exactly when retries will happen for example if you send a non 2XX code most 3rd parties will retry and you might not need that retry to overload your servers OR you don't want to retry if you receive 400 bad request as it will always result in a bad request
+* #### Taking any data from 3rd party in a file, upload it to your database/file utility service for future use
 
 ## *Database*
 ----
